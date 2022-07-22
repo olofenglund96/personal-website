@@ -27,7 +27,7 @@
 
 <div class="drawer {drawerMobile}">
 	<input id="my-drawer-2" type="checkbox" class="drawer-toggle" bind:checked={sideBarVisible} />
-	<div class="drawer-content">
+	<div class="drawer-content bg-black">
 		<div class="flex flex-col h-full transition-none {bgClass}">
 			<Navbar />
 			<div class="flex flex-col flex-grow w-full"><slot /></div>

@@ -10,8 +10,15 @@
 	} from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<div class="hero h-[40vh] w-[60wv]">
+<div class="hero w-[60wv]">
 	<div class="hero-content flex-col lg:flex-row-reverse">
+		<div class="avatar">
+			<div
+				class="w-40 md:w-60 lg:mt-[-50%] rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
+			>
+				<img alt="Olof" src="/images/me_square.jpg" />
+			</div>
+		</div>
 		<div class="text-center">
 			<h1 class="text-secondary font-['Righteous'] text-7xl p-5">Hi, I'm Olof!</h1>
 			<p class="py-6 text-xl text-secondary p-5 text-left leading-10">
@@ -37,7 +44,7 @@
 	</div>
 </div>
 
-<div class="self-end w-full text-center text-secondary mt-auto p-2 text-2xl">
+<div class="self-end w-full text-center text-secondary mt-auto p-2 text-md lg:text-2xl ">
 	<IconWithText
 		icon={faTriangleExclamation}
 		iconBgColor="none"

@@ -15,5 +15,7 @@
 	<span class="mr-3 p-4 bg-{iconBgColor} text-{iconTextColor} rounded-full">
 		<Fa {icon} size={iconSize} /></span
 	>
-	<slot />
+	<span>
+		<slot />
+	</span>
 </span>
